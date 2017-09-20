@@ -4,6 +4,7 @@
 
   h1
     text-align: center
+    text-transform: uppercase
     font-family: $header-font
     color: #FFF7CE
     font-size: 3.5em
@@ -26,6 +27,23 @@
   height: 30px
   background-color: #FFF7CE
 
+  button
+    border: none
+    margin: 0
+    padding: 6px 8px
+    text-transform: uppercase
+    color: #4281A4
+    background-color: inherit
+    font-family: $header-font
+    font-weight: 700
+    cursor: pointer
+
+    &:focus
+      outline: none
+
+    &:hover
+      background-color: #4281A4
+      color: #FFF7CE
 
   h4
     margin: 0
@@ -43,9 +61,6 @@
     display: flex
     justify-content: space-around
     align-items: center
-
-    h4
-      padding: 6px 5px
 
     .selected
       background-color: #4281A4
