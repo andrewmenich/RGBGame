@@ -11,6 +11,9 @@
     font-weight: 400
     margin: 10px 0
 
+    @media(max-width: 550px)
+      font-size: 2.5em
+
   h2
     text-align: center
     font-family: $header-font
@@ -22,10 +25,15 @@
     letter-spacing: 2px
     text-shadow: 3px 3px 10px rgba(0,0,0,0.4)
 
+    @media(max-width: 550px)
+      font-size: 1.5em
 
 .control-bar
   height: 30px
   background-color: #FFF7CE
+
+  @media(max-width: 550px)
+    height: auto
 
   button
     border: none
@@ -45,6 +53,9 @@
       background-color: #4281A4
       color: #FFF7CE
 
+    @media(max-width: 550px)
+      margin: 1px 0
+
   h4
     margin: 0
     padding: 6px 0
@@ -61,6 +72,9 @@
     display: flex
     justify-content: space-around
     align-items: center
+
+    @media(max-width: 550px)
+      flex-direction: column
 
     .selected
       background-color: #4281A4
